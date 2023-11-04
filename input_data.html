@@ -1,0 +1,86 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>QUIZ PEMROGRAMAN BERBASIS WEB</title>
+    <style>
+        body {
+         background-color: lightskyblue;
+        }
+      </style>
+     
+</head>
+<body>
+    <hr color="red"/>
+    <h2><center>QUIZ PEMROGRAMAN BERBASIS WEB</h2></center>
+    
+        <p><center>
+            <a href="index.html">Home</a>
+            <a href="list_data.html">List Jurusan</a>
+            <a href="input_data.html">Input Data</a>
+            <a href="tabel_data.html">Tampil Tabel</a>
+            <a href="about.html">About</a>
+        </p></center>
+        <hr color="red"/>
+    <form action="registrasi.php" method="POST">
+        <fieldset>
+            <legend>FORMULIR PENDAFTARAN CALON MAHASISWA BARU UNIPI</legend>
+
+            <p>
+                <label>NAMA:</label>
+                <input type="text" name="nama" placeholder="Nama lengkap..."/>
+            </p>
+            <p>
+                <label>TEMPAT LAHIR:</label>
+                <input type="text" name="nama" placeholder="lahir dimana..."/>
+            </p>
+            <p>
+                <label>TANGGAL LAHIR:</label>
+                <input type="date" name="tanggal"/>
+            </p>
+            <p>
+                <label>UMUR:</label>
+                <input type="number" min="10" max="70" name="umur"/>
+            </p>
+            <p>
+                <label>ALAMAT:</label>
+                <textarea name="alamat"></textarea>
+            </p>
+            <p>
+                <label>JENIS KELAMIN:</label>
+                <label><input type="radio" name="jenis_kelamin" value="laki-laki"/> Laki-Laki</label>
+                <label><input type="radio" name="jenis_kelamin" value="perempuan"/> Perempuan</label>
+            </p>
+            <p>
+                <label>AGAMA:</label>
+                <select name="agama">
+                    <option value="islam">Islam</option>
+                    <option value="kristen protestan">Kristen Protestan</option>
+                    <option value="kristen katolik">Kristen Katolik</option>
+                    <option value="hindu">Hindu</option>
+                    <option value="buddha">Buddha</option>
+                    <option value="khonghucu">Khonghucu</option>
+                </select>
+            </p>
+            <p>
+                <label>EMAIL:</label>
+                <input type="email" name="email" placeholder="Email sampean..."/>
+            </p>
+            <p>
+                <label>NO.HP:</label>
+                <input type="no.hp" name="no.hp" placeholder="No.Hp sampean..."/>
+            </p>
+            <p>
+                <label>ALASAN MEMILIH UNIPI:</label>
+                <textarea name="alasan memilih unipi"></textarea>
+            </p>
+            <p>
+                <input type="submit" name="submit" value="Daftar"/>
+                <input type="submit" name="submit" value="Batal"/>
+                
+
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
+
